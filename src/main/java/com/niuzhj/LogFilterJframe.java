@@ -33,6 +33,8 @@ public class LogFilterJframe extends JFrame {
         String keyWords = textField3.getText().trim();
 
         ReadAndWrite.raw(fileReader, fileWriter, keyWords);
+
+        System.out.println("日志过滤已完成");
     }
 
     private void initComponents() {
